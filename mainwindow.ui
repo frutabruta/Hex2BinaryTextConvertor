@@ -18,23 +18,28 @@
     <item row="0" column="0">
      <widget class="QSplitter" name="splitter">
       <property name="orientation">
-       <enum>Qt::Horizontal</enum>
+       <enum>Qt::Orientation::Horizontal</enum>
       </property>
       <widget class="QPlainTextEdit" name="plainTextEdit_input">
        <property name="font">
         <font>
-         <family>Lucida Console</family>
+         <family>unifont</family>
+         <pointsize>14</pointsize>
         </font>
+       </property>
+       <property name="lineWrapMode">
+        <enum>QPlainTextEdit::LineWrapMode::NoWrap</enum>
        </property>
       </widget>
       <widget class="QPlainTextEdit" name="plainTextEdit_output">
        <property name="font">
         <font>
-         <family>Lucida Console</family>
+         <family>unifont</family>
+         <pointsize>14</pointsize>
         </font>
        </property>
        <property name="lineWrapMode">
-        <enum>QPlainTextEdit::NoWrap</enum>
+        <enum>QPlainTextEdit::LineWrapMode::NoWrap</enum>
        </property>
       </widget>
      </widget>
